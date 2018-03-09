@@ -37,8 +37,8 @@
                     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" data-spy="affix">
-  <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light" data-spy="affix" data-offset-top="197">
+  <a class="navbar-brand" href="#">Cooper Fellowship</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -143,6 +143,7 @@
         
 <script type="text/javascript">
   $(document).ready(function(){
+    $('.nav').affix({offset: {top: 150} });
     $('.carousel').carousel({
       interval: 3000
     });
@@ -154,7 +155,7 @@
     $('#myCarousel').carousel('next');
     });
       
-    $('.nav').affix({offset: {top: 150} });
+
   });    
 </script> 
         
