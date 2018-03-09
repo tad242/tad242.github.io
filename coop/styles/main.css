@@ -1,7 +1,7 @@
 
 body {
-    background: white;
-    color: red;
+    background: black;
+    color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -49,6 +49,11 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
     max-height: 400px;
+}
+
+footer {
+    background: transparent;
+    color: #000;
 }
 
 .affix {
