@@ -1,6 +1,6 @@
 
 body {
-    background: black;
+    background: white;
     color: red;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -12,7 +12,7 @@ body {
 
 h1 {
     text-align: center;
-    font-family: "Times New Roman", Times, serif !important;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
 h4 {
@@ -60,3 +60,7 @@ img {
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+.navbar-brand {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
