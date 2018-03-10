@@ -69,3 +69,9 @@ footer {
 .navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
+
+.navbar .in .nav li {
+   display: block;
+   float: none;
+   width:100%;
+}
