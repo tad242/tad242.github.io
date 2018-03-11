@@ -57,8 +57,9 @@ footer {
 }
 
 .affix {
-      top: -5;
-      width: 100%;
+      top: 0;
+        margin-left: -15px;
+      width: 110%;
       z-index: 9999 !important;
   }
 
