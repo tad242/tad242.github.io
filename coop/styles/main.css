@@ -56,15 +56,6 @@ footer {
     color: #000;
 }
 
-.affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
 
 .navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
