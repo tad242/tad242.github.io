@@ -64,6 +64,10 @@ footer {
       z-index: 9999 !important;
   }
 
+.navbar-collapse {
+    
+}
+
 .navbar-brand {
     color:black !important;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
