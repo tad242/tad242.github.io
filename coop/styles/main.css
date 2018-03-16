@@ -60,7 +60,7 @@ footer {
 .affix {
       top: 0;
     margin-left: -15px;
-      width: 110%;
+      width: 105%;
       z-index: 9999 !important;
   }
 
