@@ -48,8 +48,11 @@ img {
     border: 10px solid rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     display: block;
-    margin: 1.3em auto;
-    width: 500px;
+    margin: 0.5em auto;
+    height: auto; 
+    width: auto; 
+    max-width: 70%; 
+    max-height: 70%;
 }
 
 p {
@@ -67,6 +70,7 @@ footer {
       width: 102%;
       z-index: 9999 !important;
   }
+
 
 .navbar-collapse {
     
