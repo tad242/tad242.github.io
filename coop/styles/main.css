@@ -68,6 +68,7 @@ footer {
       top: 0;
     margin-left: -15px;
       width: 102%;
+    position: fixed;
       z-index: 9999 !important;
   }
 
