@@ -68,7 +68,7 @@ footer {
       top: 0;
     margin-left: -10px;
       width: 102%;
-    position: sticky;
+    position: fixed;
       z-index: 9999 !important;
   }
 
@@ -89,3 +89,14 @@ footer {
    float: none;
    width:100%;
 }
+        .top-nav-collapse {
+            background-color: #82b1ff !important; 
+        }
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+        @media (max-width: 768px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #82b1ff !important;
+            } 
+        }
