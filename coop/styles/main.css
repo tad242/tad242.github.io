@@ -60,7 +60,7 @@ p {
 }
 
 footer {
-    background: white;
+    background: cornsilk;
     color: #000;
 }
 
@@ -90,13 +90,13 @@ footer {
    width:100%;
 }
         .top-nav-collapse {
-            background-color: #82b1ff !important; 
+            background-color: cornsilk !important; 
         }
         .navbar:not(.top-nav-collapse) {
-            background: transparent !important;
+            background: cornsilk !important;
         }
         @media (max-width: 768px) {
             .navbar:not(.top-nav-collapse) {
-                background: #82b1ff !important;
+                background: cornsilk !important;
             } 
         }
