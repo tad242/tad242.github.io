@@ -1,6 +1,6 @@
 body {
-    background: #000033 !important;
-    color: white;
+    background: #00003f !important;
+    color: red;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -12,11 +12,13 @@ body {
 
 h1 {
     text-align: center;
+    color: lightgoldenrodyellow !important;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
 h4 {
     text-align: center;
+    color: lightgoldenrodyellow !important;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
@@ -60,8 +62,8 @@ p {
 }
 
 footer {
-    background: white;
-    color: #000;
+    background: #00001f;
+    color: #fff;
 }
 
 .affix {
@@ -73,30 +75,49 @@ footer {
   }
 
 
-.navbar-collapse {
-    
+/*
+Menu Items
+*/
+.nav-link {
+    color: white !important;
 }
 
+/*
+Active Items
+*/
+.active a {
+    color: gray !important;
+}
+
+/*
+Menu Header
+*/
 .navbar-brand {
-    color:black !important;
+    color:lightgoldenrodyellow !important;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
     text-align: center;
     margin-top: -20px;
 }
 
+/*
+Menu
+*/
 .navbar .in .nav li {
    display: block;
    float: none;
    width:100%;
 }
-        .top-nav-collapse {
-            background-color: white !important; 
-        }
-        .navbar:not(.top-nav-collapse) {
-            background: white !important;
-        }
-        @media (max-width: 768px) {
-            .navbar:not(.top-nav-collapse) {
-                background: white !important;
-            } 
-        }
+
+.top-nav-collapse {
+    background-color: white !important; 
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: #00001f !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: white !important;
+    } 
+}
