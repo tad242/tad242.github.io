@@ -56,11 +56,11 @@ img {
 }
 
 p {
-    color: seashell;
+    color: green;
 }
 
 footer {
-    background: cornsilk;
+    background: white;
     color: #000;
 }
 
@@ -90,7 +90,7 @@ footer {
    width:100%;
 }
         .top-nav-collapse {
-            background-color: cornsilk !important; 
+            background-color: white !important; 
         }
         .navbar:not(.top-nav-collapse) {
             background: cornsilk !important;
