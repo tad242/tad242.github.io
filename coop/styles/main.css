@@ -93,10 +93,10 @@ footer {
             background-color: white !important; 
         }
         .navbar:not(.top-nav-collapse) {
-            background: cornsilk !important;
+            background: white !important;
         }
         @media (max-width: 768px) {
             .navbar:not(.top-nav-collapse) {
-                background: cornsilk !important;
+                background: white !important;
             } 
         }
