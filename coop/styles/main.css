@@ -108,7 +108,7 @@ Menu
 
 
 .navbar .in .nav li {
-   display: block;
+   display: block !important;
    float: none;
    width:100%;
 }
