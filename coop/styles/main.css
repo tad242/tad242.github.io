@@ -81,6 +81,8 @@ Menu Items
 */
 .nav-link {
     color: white !important;
+    text-align: center;
+    text-align-last: center;
 }
 
 /*
@@ -114,15 +116,9 @@ Menu
 }
 
 .top-nav-collapse {
-    background-color: white !important; 
+    background-color: blue !important; 
 }
 
 .navbar:not(.top-nav-collapse) {
     background: #00001f !important;
-}
-
-@media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-        background: white !important;
-    } 
 }
