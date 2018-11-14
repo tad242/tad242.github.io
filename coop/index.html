@@ -47,10 +47,10 @@
  </div>
 </div>
 
-<div class="nav-container">
-<nav class="navbar navbar-expand-lg navbar-light">
+<div class="nav-container" id="navCont">
+<nav class="navbar navbar-expand-sm navbar-dark">
   <a class="navbar-brand mx-auto col-12 col-sm-3">Cooper<br> Fellowship</a>
-  <button class="navbar-toggler col-12" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler col-12" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation" style="margin-top: 15px;">
     <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -194,7 +194,7 @@
         
 <script type="text/javascript">
   $(document).ready(function(){
-    $('#navMenu').affix({offset: {top: 220} });
+    $('#navCont').affix({offset: {top: 130} });
     $('.carousel').carousel({
       interval: 3000
     });
