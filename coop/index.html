@@ -47,16 +47,16 @@
  </div>
 </div>
 
-<div class="nav-container" data-spy="affix" data-offset-top="1100">
+<div class="nav-container" id="navCont">
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand mx-auto col-12 col-sm-3">Cooper<br> Fellowship</a>
   <button class="navbar-toggler col-12" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="glyphicon glyphicon-chevron-down" style="color: white"></span>
       </button>
 
 
-  <div class="collapse navbar-collapse col-sm-11 text-center" id="navMenu">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse col-sm-10 text-center mx-auto" id="navMenu">
+    <ul class="navbar-nav">
     <div class="row">
     <div class="col-sm-6">
      <div class="row">
@@ -144,7 +144,9 @@
 
 
         
-</div><!-- End Page -->    
+</div>
+    
+    <!-- End Page -->    
         
 <div class="container-fluid">
 <!--Footer-->
@@ -194,7 +196,8 @@
         
 <script type="text/javascript">
   $(document).ready(function(){
-    //$('.nav').affix({offset: {top: 100} });
+    $('#navCont').affix({offset: {top: 200} });
+      
     $('.carousel').carousel({
       interval: 3000
     });
