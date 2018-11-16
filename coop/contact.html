@@ -12,6 +12,7 @@
         <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://platform.twitter.com/widgets.js"></script>
 
         <link rel="stylesheet" href="styles/bootstrap.min.css" media=screen>
         <link rel="stylesheet" href="styles/main.css">
@@ -85,7 +86,7 @@
         <a class="nav-link" href="videos.html">Helpful Videos</a>
       </li>        
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
      </div></div></div>
     </ul>
@@ -93,25 +94,112 @@
 </nav>
 </div>
         <!-- End Header -->
+
         
             
    <!-- Begin Page -->
-<div class="container">
- <div class="list-group mx-auto col-7 text-center">
-  
-  <a href="http://www.oc-aa.org/directory/meetings.asp" class="list-group-item list-group-item-action list-group-item-info">Find A Meeting</a>
-  <a href="http://aa-intergroup.org/directory.php" class="list-group-item list-group-item-action list-group-item-info">Online Meetings</a>
-  <a href="http://www.oc-aa.org/" class="list-group-item list-group-item-action list-group-item-info">Orange County A.A.</a>
-  <a href="https://www.aa.org/pages/en_US/alcoholics-anonymous" class="list-group-item list-group-item-action list-group-item-info">Big Book</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a warning list group item</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a info list group item</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a light list group item</a>
-  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a dark list group item</a>
-</div>
-</div>
 
-        
-</div><!-- End Page -->    
+    <!--Section: Contact v.2-->
+<div class="container">
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p>Santa Ana, CA, 92703</p>
+                </li>
+
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 714 554 1152</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p>@cooperfellowship.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+    
+    </div>
+    
+    <!-- End Page -->    
         
 <div class="container-fluid bg-white">
 <!--Footer-->
@@ -172,8 +260,7 @@
 
     $('.carousel-control.right').click(function() {
     $('#myCarousel').carousel('next');
-    });
-      
+    }); 
 
   });    
 </script>
