@@ -140,11 +140,8 @@
     <div class="row">
         <div class="col-xs-10 col-sm-8 col-md-8 col-lg-6 mx-auto">
         <p>
-                 <?php
-echo "Hello World!";
-?>
             Welcome to Cooper Fellowship, a modern rehabilitation program that understands addiction. It's a simple,
-            yet powerful, path to sobriety that blends clean living and educational tools to give people new outlooks and opportunities.
+            yet powerful, path to sobriety that blends clean living and educational tools to give people new opportunities.
         </p>
         </div>
     </div>
