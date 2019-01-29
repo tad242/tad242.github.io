@@ -106,8 +106,7 @@
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly.</p>
 
     <div class="row">
 
@@ -186,7 +185,7 @@
                 </li>
 
                 <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-                    <p>@cooperfellowship.com</p>
+                    <p>contact@cooperfellowship.com</p>
                 </li>
             </ul>
         </div>
