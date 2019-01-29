@@ -122,3 +122,8 @@ Menu
 .navbar:not(.top-nav-collapse) {
     background: #00001f !important;
 }
+
+.submit
+{
+    color: greenyellow;
+}

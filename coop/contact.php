@@ -13,6 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://platform.twitter.com/widgets.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <link rel="stylesheet" href="styles/bootstrap.min.css" media=screen>
         <link rel="stylesheet" href="styles/main.css">
@@ -163,13 +164,14 @@
                     </div>
                 </div>
                 <!--Grid row-->
-
+            <div class="btn-primary text-center text-md-left">
+                <input type="submit" name="submit" value="Send">
+            </div>
+           <!-- <div class="status"><div class="g-recaptcha" data-sitekey="your_site_key"></div></div> -->
+                
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
+
         </div>
         <!--Grid column-->
 
@@ -182,10 +184,6 @@
 
                 <li><i class="fa fa-phone mt-4 fa-2x"></i>
                     <p>+ 01 714 554 1152</p>
-                </li>
-
-                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@cooperfellowship.com</p>
                 </li>
             </ul>
         </div>

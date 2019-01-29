@@ -23,4 +23,7 @@
 
   ini_set(mail($to,$email_subject,$email_body,$headers),1);
 
+  header("Location: index.php");
+  exit;
  ?>
+
