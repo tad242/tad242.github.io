@@ -167,7 +167,7 @@
             <div class="btn-primary text-center text-md-left">
                 <input type="submit" name="submit" value="Send">
             </div>
-           <!-- <div class="status"><div class="g-recaptcha" data-sitekey="your_site_key"></div></div> -->
+           <div class="status"><div class="g-recaptcha" data-sitekey="6LfmdY0UAAAAAGVm6yCPUuhajGdWWOidwzRKnSJo"></div></div>
                 
             </form>
 
