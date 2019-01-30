@@ -62,7 +62,7 @@
     <div class="col-sm-5">
      <div class="row">
       <li class="nav-item col-12 col-xs-3 col-lg-3 active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
         <a class="nav-link" href="#">Recovery</a>
@@ -86,7 +86,7 @@
         <a class="nav-link" href="#">Helpful Videos</a>
       </li>        
       <li class="nav-item col-12 col-xs-3 col-lg-2" data-toggle="tooltip" data-placement="bottom" title="(714) 554-1152">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.php">Contact</a>
       </li>
      </div></div></div>
     </ul>

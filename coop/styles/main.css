@@ -123,7 +123,15 @@ Menu
     background: #00001f !important;
 }
 
-.submit
-{
-    color: greenyellow;
+input[type=submit] {
+    display:inline-block;
+    color: white;
+    border: white 5;
+    padding: 5px;
+    background: #00002f;
+    font-weight: 600;
+}
+
+input[type=submit]:hover {
+    background: black;
 }

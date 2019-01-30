@@ -62,32 +62,32 @@
     <div class="row">
     <div class="col-lg-6">
      <div class="row">
-      <li class="nav-item col-12 col-sm-3 col-lg-3 active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item col-12 col-sm-3 col-lg-3">
+        <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="recovery.html">Recovery</a>
+        <a class="nav-link" href="#">Recovery</a>
       </li>
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="resources.html">Resources</a>
+        <a class="nav-link" href="#">Resources</a>
       </li>
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="aa.html">Alcoholics Anonymous</a>
+        <a class="nav-link" href="#">Alcoholics Anonymous</a>
       </li>
     </div></div> 
     <div class="col-lg-6">
      <div class="row">        
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="na.html">Narcotics Anonymous</a>
+        <a class="nav-link" href="#">Narcotics Anonymous</a>
       </li>
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="links.html">Important Links</a>
+        <a class="nav-link" href="#">Important Links</a>
       </li>
       <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="videos.html">Helpful Videos</a>
+        <a class="nav-link" href="#">Helpful Videos</a>
       </li>        
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="#">Contact</a>
+      <li class="nav-item col-12 col-sm-3 col-lg-3 active">
+        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
       </li>
      </div></div></div>
     </ul>
@@ -113,7 +113,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" action="contact.php" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -125,7 +125,7 @@
                             <label for="name" class="">Your name</label>
                         </div>
                     </div>
-                    <!--Grid column-->
+
 
                     <!--Grid column-->
                     <div class="col-md-6">
@@ -134,10 +134,9 @@
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
-                    <!--Grid column-->
+
 
                 </div>
-                <!--Grid row-->
 
                 <!--Grid row-->
                 <div class="row">
@@ -148,12 +147,11 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid row-->
 
-                <!--Grid row-->
+
                 <div class="row">
 
-                    <!--Grid column-->
+
                     <div class="col-md-12">
 
                         <div class="md-form">
@@ -163,11 +161,54 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
-            <div class="btn-primary text-center text-md-left">
+
+           <div class="status">
+               <div class="g-recaptcha" data-sitekey="6LfmdY0UAAAAAGVm6yCPUuhajGdWWOidwzRKnSJo"></div>
+                <?php
+                    $response = $_POST["g-recaptcha-response"];
+                    $url = 'https://www.google.com/recaptcha/api/siteverify';
+                    $data = array(
+                        'secret' => '6LfmdY0UAAAAALBshWvluDd-SNZx4-P1YHZEs0d4',
+                        'response' => $_POST["g-recaptcha-response"]
+                    );
+                    $options = array(
+                        'http' => array (
+                            'method' => 'POST',
+                            'content' => http_build_query($data)
+                        )
+                    );
+                    $context  = stream_context_create($options);
+                    $verify = file_get_contents($url, false, $context);
+                    $captcha_success=json_decode($verify);
+                    if ($captcha_success->success==false) {
+                        echo "<p>Please verify that you are human.</p>";
+                    } else if ($captcha_success->success==true) {
+                        echo "<p>Success!</p>";
+                        
+                        $name = $_POST['name'];
+                        $visitor_email = $_POST['email'];
+                        $message = $_POST['message'];
+
+                        $email_from = $visitor_email;
+                        $email_subject = "New Email from $name";
+                        $email_body = "You have received a new message from the user $name.\n
+                                        Here is the message:\n $message";
+
+                        $to = "brokenyard@gmail.com";
+                        $headers = "From: $email_from \r\n";
+                        $headers .= "Reply-To: $visitor_email \r\n";
+
+                        ini_set(mail($to,$email_subject,$email_body,$headers),1);
+
+                    }
+                ?>
+
+               
+            </div>
+            <div class="text-center text-md-left">
                 <input type="submit" name="submit" value="Send">
             </div>
-           <div class="status"><div class="g-recaptcha" data-sitekey="6LfmdY0UAAAAAGVm6yCPUuhajGdWWOidwzRKnSJo"></div></div>
+                
                 
             </form>
 
@@ -191,7 +232,7 @@
 
     </div>
 
-</section>
+    </section></div>
 <!--Section: Contact v.2-->
     
     </div>
@@ -242,25 +283,6 @@
 
     </footer></div>
 <!-- End Footer -->
-        
-                      
-        
-<script type="text/javascript">
-  $(document).ready(function(){
-    //$('.nav').affix({offset: {top: 100} });
-    $('.carousel').carousel({
-      interval: 3000
-    });
-    $('.carousel-control.left').click(function() {
-    $('#myCarousel').carousel('prev');
-    });
-
-    $('.carousel-control.right').click(function() {
-    $('#myCarousel').carousel('next');
-    }); 
-
-  });    
-</script>
         
     </body>
 </html>
