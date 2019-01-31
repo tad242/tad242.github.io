@@ -30,7 +30,7 @@
     <div class="col-sm-5">
      <div class="row">
       <li class="nav-item col-12 col-xs-3 col-lg-3 active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
         <a class="nav-link" href="#">Recovery</a>
@@ -39,7 +39,7 @@
         <a class="nav-link" href="#">Resources</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-2">
-        <a class="nav-link" href="#">Alcoholics Anonymous</a>
+        <a class="nav-link" href="aa.php">Alcoholics Anonymous</a>
       </li>
     </div></div>
     <div class="col-sm-5">
