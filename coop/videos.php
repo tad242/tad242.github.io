@@ -33,19 +33,34 @@
    <!-- Begin Page -->
 <div class="container">
     <div class="row">
-    <div class="container col-5 mx-auto">   
-        <div class="row">
-    <div class="embed-responsive embed-responsive-16by9">
+    <div class="container col-5 mx-auto">
+        
+    <div class="row">
+        <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2E6vZt_DC5I" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        </div>
+    </div>
+        
     <div class="row" style="margin-top:50px">
-    <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pE51o0izGFQ" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
+            
+    <div class="row" style="margin-top:50px">
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/krBqXFBKPJs" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
     </div>
-    <div class="ccontainer col-6 mx-auto">
+        
+    <div class="row" style="margin-top:50px">
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JDiFBqWPVe8" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+        
+    </div>
+    <div class="container col-6 mx-auto">
         <a class="twitter-timeline"
            href="https://twitter.com/ArcRecovery/lists/addiction?ref_src=twsrc%5Etfw">A Twitter List by ArcRecovery</a>
     </div>
@@ -58,23 +73,6 @@
 <?php
     include 'footer.php';
 ?>
- 
-<script type="text/javascript">
-  $(document).ready(function(){
-    //$('.nav').affix({offset: {top: 100} });
-    $('.carousel').carousel({
-      interval: 3000
-    });
-    $('.carousel-control.left').click(function() {
-    $('#myCarousel').carousel('prev');
-    });
-
-    $('.carousel-control.right').click(function() {
-    $('#myCarousel').carousel('next');
-    }); 
-
-  });    
-</script>
         
     </body>
 </html>

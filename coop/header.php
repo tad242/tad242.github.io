@@ -49,10 +49,10 @@
         <a class="nav-link" href="#">Narcotics Anonymous</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
-        <a class="nav-link" href="#">Important Links</a>
+        <a class="nav-link" href="links.php">Important Links</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
-        <a class="nav-link" href="#">Helpful Videos</a>
+        <a class="nav-link" href="videos.php">Helpful Videos</a>
       </li>        
       <li class="nav-item col-12 col-xs-3 col-lg-2" data-toggle="tooltip" data-placement="bottom" title="(714) 554-1152">
         <a class="nav-link" href="contact.php">Contact</a>
