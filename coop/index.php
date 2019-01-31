@@ -48,7 +48,7 @@
       <img class="d-block w-100" src="images/dand.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/library.jpg" alt="Second slide">
+      <img class="d-block w-100" src="images/yoga.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/court.jpg" alt="Third slide">
