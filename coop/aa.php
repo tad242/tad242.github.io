@@ -29,72 +29,9 @@
     <body>
         
         
-<div class="p-3 mb-2 bg-primary-dark text-light">
-    
-<!-- Begin Header -->    
-
-<div class="container-fluid" style="background-color:transparent;color:#fff;height:120px;">
- <div class="row">
-    <div class="col"></div>
-    <div class="col-12">
-        <h1 class="text-white">Cooper Fellowship</h1>
-    </div>
-    <div class="col"></div>
- </div>   
- <div class="row">
-    <div class="col"></div>
-    <div class="position-relative col-6">
-        <h4 class="text-light">A sober living community</h4>
-    </div>
-    <div class="col"></div>
- </div>
-</div>
-
-
-<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top scrolling-navbar">
-  <a class="navbar-brand col-12 col-sm-2">Cooper<br> Fellowship</a>
-  <button class="navbar-toggler col-12" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-  <div class="collapse navbar-collapse text-center" id="navMenu">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-2">
-    <div class="row">
-    <div class="col-lg-6">
-     <div class="row">
-      <li class="nav-item col-12 col-sm-3 col-lg-3 active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="recovery.html">Recovery</a>
-      </li>
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="resources.html">Resources</a>
-      </li>
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="aa.html">Alcoholics Anonymous</a>
-      </li>
-    </div></div> 
-    <div class="col-lg-6">
-     <div class="row">        
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="na.html">Narcotics Anonymous</a>
-      </li>
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="links.html">Important Links</a>
-      </li>
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="videos.html">Helpful Videos</a>
-      </li>        
-      <li class="nav-item col-12 col-sm-3 col-lg-3">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-     </div></div></div>
-    </ul>
-  </div>
-</nav>
-        <!-- End Header -->
+<?php
+    include 'header.php';
+?>
  
    <!-- Begin Page -->
 <div class="container col-12">
@@ -280,52 +217,11 @@
   </div>
     </div></div>
         
-</div><!-- End Page -->    
+<!-- End Page -->    
         
-<div class="container-fluid bg-white">
-<!--Footer-->
-<footer class="page-footer font-small blue pt-4 mt-4">
-
-    <!--Footer Links-->
-    <div class="container-fluid text-center text-md-center">
-        <div class="row">
-
-            <!--First column-->
-            <div class="col-md-6">
-                <h5 class="text-uppercase">COOPER FELLOWSHIP</h5>
-                <p>Here you can use rows and columns here to organize your footer content.</p>
-            </div>
-            <!--/.First column-->
-
-            <!--Second column-->
-            <div class="col-md-6">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        409 North Cooper Street
-                    </li>
-                    <li>
-                        Santa Ana, CA
-                    </li>
-                    <li>
-                        (714) 554-1152
-                    </li>
-                </ul>
-            </div>
-            <!--/.Second column-->
-        </div>
-    </div>
-    <!--/.Footer Links-->
-
-    <!--Copyright-->
-    <div class="footer-copyright py-3 text-center">
-        © 2018 Copyright:
-        <a href="#"> Cooper Fellowship </a>
-    </div>
-    <!--/.Copyright-->
-
-    </footer></div>
-<!-- End Footer -->
+<?php
+    include 'footer.php';
+?>
         
     </body>
 </html>

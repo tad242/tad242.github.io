@@ -33,6 +33,7 @@ h2, h3, h4, h5, h6 {
 
 h2 {
     margin-top: 1.3em;
+    color: white !important;
 }
 
 a:hover {
@@ -93,7 +94,12 @@ Menu Items
 }
 
 .nav-tabs a:hover {
-    color: inherit;
+    color: white;
+}
+
+.lead {
+    color: black;
+    text-decoration: ;
 }
 
 
