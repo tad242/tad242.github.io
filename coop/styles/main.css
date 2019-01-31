@@ -79,11 +79,24 @@ footer {
 /*
 Menu Items
 */
-.nav-link {
+
+#navMenu a {
     color: white !important;
-    text-align: center;
-    text-align-last: center;
 }
+
+#navMenu .active a {
+    color: gray !important;
+}
+
+.nav-tabs a {
+    color: white;
+}
+
+.nav-tabs a:hover {
+    color: inherit;
+}
+
+
 
 /*
 Active Items
