@@ -29,11 +29,12 @@
     <div class="row">
     <div class="col-sm-5">
      <div class="row">
-      <li class="nav-item col-12 col-xs-3 col-lg-3 active">
-          <a class="nav-link" href="index.php">Home</a>
+      <li class="nav-item col-12 col-xs-3 col-lg-3">
+          <a class="nav-link" href="index.php" <?php if($_SERVER['PHP_SELF']=='index.php'){ $shart = true; } else $shart = false; ?> >
+              <?php if($shart){echo 'HALP';} else echo 'NARP'; ?> Home</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
-        <a class="nav-link" href="#">Recovery</a>
+        <a class="nav-link" href="#" style="text-decoration: underline overline;">Recovery</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
         <a class="nav-link" href="#">Resources</a>

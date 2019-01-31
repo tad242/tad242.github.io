@@ -30,8 +30,7 @@
 <div class="p-3 mb-2 text-light">
     
 
-
-        
+  
             
    <!-- Begin Page -->
 <?php

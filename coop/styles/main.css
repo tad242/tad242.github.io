@@ -85,8 +85,8 @@ Menu Items
     color: white !important;
 }
 
-#navMenu .active a {
-    color: gray !important;
+#navMenu li {
+    color: blue !important;
 }
 
 .nav-tabs a {
@@ -99,7 +99,10 @@ Menu Items
 
 .lead {
     color: black;
-    text-decoration: ;
+}
+
+#navMenu #dude {
+    color: red !important;
 }
 
 
@@ -107,13 +110,12 @@ Menu Items
 /*
 Active Items
 */
-.active a {
-    color: gray !important;
-}
 
 /*
 Menu Header
 */
+
+
 .navbar-brand {
     color:lightgoldenrodyellow !important;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
@@ -126,13 +128,6 @@ Menu Header
 /*
 Menu
 */
-
-
-.navbar .in .nav li {
-   display: block !important;
-   float: none;
-   width:100%;
-}
 
 .top-nav-collapse {
     background-color: blue !important; 
