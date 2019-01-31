@@ -30,7 +30,7 @@
     <div class="col-sm-5">
      <div class="row">
       <li class="nav-item col-12 col-xs-3 col-lg-3">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link active" href="index.php">Home</a>
       </li>
       <li class="nav-item col-12 col-xs-3 col-lg-3">
         <a class="nav-link" href="#">Recovery</a>

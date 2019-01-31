@@ -85,8 +85,8 @@ Menu Items
     color: white !important;
 }
 
-#navMenu li {
-    color: blue !important;
+#navMenu .active  {
+    color: gray !important;
 }
 
 .nav-tabs a {
@@ -101,9 +101,6 @@ Menu Items
     color: black;
 }
 
-#navMenu #dude {
-    color: red !important;
-}
 
 
 
