@@ -29,6 +29,12 @@
     <div class="row">
     <div class="col-sm-5">
      <div class="row">
+         
+         <?php
+            if($_SERVER['PHP_SELF'] == "index.php"){ echo 'HOWDY-HO'; }
+            else echo $_SERVER['PHP_SELF'];
+         ?>
+         
       <li class="nav-item col-12 col-xs-3 col-lg-3">
           <a class="nav-link active" href="index.php">Home</a>
       </li>
