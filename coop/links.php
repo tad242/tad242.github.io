@@ -36,8 +36,12 @@
   <a href="http://www.oc-aa.org/directory/meetings.asp" class="list-group-item list-group-item-action list-group-item-info">Find A Meeting</a>
   <a href="http://aa-intergroup.org/directory.php" class="list-group-item list-group-item-action list-group-item-info">Online Meetings</a>
   <a href="https://www.oc-aa.org/" class="list-group-item list-group-item-action list-group-item-info">Orange County Alcoholics Anonymous</a>
+  <a href="https://orangecountyna.org/" class="list-group-item list-group-item-action list-group-item-info">Orange County Narcotics Anonymous</a>
+  <a href="http://www.southcoastareana.com/" class="list-group-item list-group-item-action list-group-item-info">South Coast Orange County Narcotics Anonymous</a>     
   <a href="http://www.aasandiego.org/" class="list-group-item list-group-item-action list-group-item-info">San Diego Alcoholics Anonymous</a>
-  <a href="https://lacoaa.org/" class="list-group-item list-group-item-action list-group-item-info">Los Angeles Alcoholics Anonymous</a>   
+  <a href="http://www.sandiegona.org/" class="list-group-item list-group-item-action list-group-item-info">San Diego Narcotics Anonymous</a>     
+  <a href="https://lacoaa.org/" class="list-group-item list-group-item-action list-group-item-info">Los Angeles Alcoholics Anonymous</a> 
+  <a href="http://greaterlosangelesna.org/" class="list-group-item list-group-item-action list-group-item-info">Los Angeles Narcotics Anonymous</a>      
   <a href="https://www.aa.org/pages/en_US/alcoholics-anonymous" class="list-group-item list-group-item-action list-group-item-info">The Big Book</a>
 </div>
 </div>
